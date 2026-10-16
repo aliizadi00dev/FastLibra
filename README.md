@@ -34,11 +34,11 @@ uv sync
 Open project folder and run these commands:
 
 ```bash
-# Activate Virtual Environment
-source .venv/bin/activate
-
 # Run the project
 uv run fastapi dev
+# Or:
+uv run fastapi dev --port <port-number>
+
 ```
 
 - API base URL: <http://127.0.0.1:8000>
